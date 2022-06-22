@@ -14,6 +14,7 @@ alias g="git"
 alias c="cargo"
 alias lab="jupyter lab --no-browser --port 8080"
 alias p="python3"
+alias nf="numfmt --to=iec-i --suffix B"
 
 function s
     python3 -m http.server 8080
