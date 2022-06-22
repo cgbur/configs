@@ -20,4 +20,5 @@ function s
     python3 -m http.server 8080
 end
 
-screenfetch
+# for the vanity
+# screenfetch
