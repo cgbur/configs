@@ -31,11 +31,11 @@ font:
     x: 0
     y: -4
 
-# Colors (Snazzy)
+# Colors (Snazzy + Github Dark background)
 colors:
   # Default colors
   primary:
-    background: "0x282a36"
+    background: "0x24292e"
     foreground: "0xeff0eb"
 
   # Normal colors
