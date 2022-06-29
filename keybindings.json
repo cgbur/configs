@@ -18,5 +18,9 @@
         "key": "f2",
         "command": "-editor.action.rename",
         "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "meta+f",
+        "command": "workbench.action.toggleMaximizedPanel"
     }
 ]
