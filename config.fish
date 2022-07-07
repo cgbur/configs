@@ -2,8 +2,8 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 # THEME PURE #
-set fish_function_path /home/cgbur/.config/fish/functions/theme-pure/functions/ $fish_function_path
-source /home/cgbur/.config/fish/functions/theme-pure/conf.d/pure.fish
+# set fish_function_path /home/cgbur/.config/fish/functions/theme-pure/functions/ $fish_function_path
+# source /home/cgbur/.config/fish/functions/theme-pure/conf.d/pure.fish
 
 alias c="cargo"
 alias g="git"
@@ -24,3 +24,5 @@ end
 
 # for the vanity
 # screenfetch
+
+starship init fish | source
