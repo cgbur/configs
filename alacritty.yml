@@ -18,11 +18,12 @@ window:
   decorations: full
 
 font:
-  normal:
-    family: MesloLGS Nerd Font Mono
+  # no need to manually specify if ~/.config/fontconfig/fonts.conf setup
+  # normal:
+  #   family: MesloLGS Nerd Font Mono
 
   # Point size
-  size: 11.0
+  size: 12.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -63,31 +64,31 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#1f2430'
-    foreground: '#cccac2'
-    bright_foreground: '#f28779'
+    background: "#1f2430"
+    foreground: "#cccac2"
+    bright_foreground: "#f28779"
 
   # Normal colors
   normal:
-    black:   '#171b24' #
-    red:     '#ed8274' #
-    green:   '#87d96c' #
-    yellow:  '#facd6e' #
-    blue:    '#6dcbfa' # 
-    magenta: '#dabafa' #
-    cyan:    '#90e1c6' #
-    white:   '#c7c7c7' #
+    black: "#171b24" #
+    red: "#ed8274" #
+    green: "#87d96c" #
+    yellow: "#facd6e" #
+    blue: "#6dcbfa" #
+    magenta: "#dabafa" #
+    cyan: "#90e1c6" #
+    white: "#c7c7c7" #
 
   # Brightened
   bright:
-    black: '#686868'
-    red: '#f28779'
-    green: '#d5ff80'
-    yellow: '#ffd173'
-    blue: '#73d0ff'
-    magenta: '#dfbfff'
-    cyan: '#95e6cb'
-    white: '#ffffff'
+    black: "#686868"
+    red: "#f28779"
+    green: "#d5ff80"
+    yellow: "#ffd173"
+    blue: "#73d0ff"
+    magenta: "#dfbfff"
+    cyan: "#95e6cb"
+    white: "#ffffff"
 
 shell:
   program: /bin/fish
