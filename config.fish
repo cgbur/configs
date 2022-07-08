@@ -5,6 +5,7 @@ end
 # set fish_function_path /home/cgbur/.config/fish/functions/theme-pure/functions/ $fish_function_path
 # source /home/cgbur/.config/fish/functions/theme-pure/conf.d/pure.fish
 
+alias cat="bat"
 alias c="cargo"
 alias g="git"
 alias gl="git log --oneline"
@@ -12,6 +13,7 @@ alias gs="git status"
 alias lab="jupyter lab --no-browser --port 8080"
 alias ll="ls -lah"
 alias l="ls -lh"
+alias ls="exa --group-directories-first"
 alias nf="numfmt --to=iec-i --suffix B"
 alias p="python3"
 alias vim="nvim"
@@ -26,3 +28,4 @@ end
 # screenfetch
 
 starship init fish | source
+zoxide init fish | source
