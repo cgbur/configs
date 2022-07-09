@@ -1,28 +1,33 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
-# THEME PURE #
-# set fish_function_path /home/cgbur/.config/fish/functions/theme-pure/functions/ $fish_function_path
-# source /home/cgbur/.config/fish/functions/theme-pure/conf.d/pure.fish
 
-alias cat="bat"
-alias c="cargo"
+# list
+alias ls="exa --group-directories-first"
+alias ll="ls -lah"
+alias l="ls -lh"
+
+# git
 alias g="git"
 alias gl="git log --oneline"
 alias gs="git status"
+
+# better cat
+alias cat="bat"
+
+# rust
+alias c="cargo"
+
+# utils
 alias lab="jupyter lab --no-browser --port 8080"
-alias ll="ls -lah"
-alias l="ls -lh"
-alias ls="exa --group-directories-first"
 alias nf="numfmt --to=iec-i --suffix B"
-alias p="python3"
+alias py="python3"
+alias x="clear"
 alias vim="nvim"
 alias v="vim"
-alias x="clear"
 
-function s
-    python3 -m http.server 8080
-end
+# serve files
+alias s="miniserve"
 
 # for the vanity
 # screenfetch
