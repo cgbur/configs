@@ -3,17 +3,13 @@ if status is-interactive
 end
 
 # list
-alias ls="exa --group-directories-first"
-alias ll="ls -lah"
-alias l="ls -lh"
+alias ll="exa -lah --group-directories-first"
+alias l="exa -lh --group-directories-first"
 
 # git
 alias g="git"
 alias gl="git log --oneline"
 alias gs="git status"
-
-# better cat
-alias cat="bat"
 
 # rust
 alias c="cargo"
