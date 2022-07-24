@@ -17,7 +17,7 @@ alias c="cargo"
 alias crun="cargo run"
 alias ctest="cargo test"
 alias cc="cargo check"
-alias cfmt-"cargo fmt"
+alias cfmt="cargo fmt"
 
 # utils
 alias lab="jupyter lab --no-browser --port 8080"
