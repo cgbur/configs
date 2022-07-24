@@ -10,9 +10,14 @@ alias l="exa -lh --group-directories-first"
 alias g="git"
 alias gl="git log --oneline"
 alias gs="git status"
+alias gca="git commit --amend"
 
 # rust
 alias c="cargo"
+alias crun="cargo run"
+alias ctest="cargo test"
+alias cc="cargo check"
+alias cfmt-"cargo fmt"
 
 # utils
 alias lab="jupyter lab --no-browser --port 8080"
