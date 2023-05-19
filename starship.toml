@@ -1,6 +1,5 @@
 format = """
 $username\
-$hostname\
 $directory\
 $git_branch\
 $git_state\
@@ -14,9 +13,9 @@ $character"""
 style = "blue"
 
 [character]
-success_symbol = "[❯](purple)"
+success_symbol = "[❯](blue)"
 error_symbol = "[❯](red)"
-vicmd_symbol = "[❮](green)"
+vimcmd_symbol = "[❮](green)"
 
 [git_branch]
 format = "[$branch]($style)"
