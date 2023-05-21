@@ -2,6 +2,8 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+fish_add_path $HOME/.pyenv/bin
+
 # list
 alias ll="exa -lah --group-directories-first"
 alias l="exa -lh --group-directories-first"
@@ -24,8 +26,8 @@ alias lab="jupyter lab --no-browser --port 8080"
 alias nf="numfmt --to=iec-i --suffix B"
 alias py="python3"
 alias x="clear"
-alias vim="nvim"
 alias v="vim"
+alias vtime="/usr/bin/time -v"
 
 # serve files
 alias s="miniserve"
@@ -33,5 +35,6 @@ alias s="miniserve"
 # for the vanity
 # screenfetch
 
+pyenv init - | source
 starship init fish | source
 zoxide init fish | source
